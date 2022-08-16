@@ -1,0 +1,30 @@
+
+
+
+@media screen and (max-width: 960px) {
+    .v12{
+        width: 30px;
+        height: 30px;
+        background-image: url("white.PNG");
+        background-size: 30px 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+     } 
+  }
+
+ .v12{
+    width: 50px;
+    height: 50px;
+    color: rgb(68, 73, 115);
+    cursor: pointer;
+    background-image: url("white.PNG");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+ } 
+
+ .v12:hover{
+    width: 50px;
+    height: 50px;
+    color: rgb(105, 113, 175);
+ } 

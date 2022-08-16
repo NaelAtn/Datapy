@@ -1,0 +1,67 @@
+.err1{
+    animation: backInDown; 
+    animation-duration: 2s;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5%;
+}
+
+.err2{
+    animation: fadeInLeft; 
+    animation-duration: 3s;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.err-icone{
+    width: 20%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.err-page{
+padding-bottom: 5%;
+background-color: rgb(245, 245, 245);
+padding-top: 10%; }
+
+
+
+
+@media screen and (max-width: 960px) {
+    .err-page{
+        margin-top: 20%;
+    padding-bottom: 45%;}} 
+
+.back-home {
+    color: white;
+    background-color: rgb(68, 73, 115);
+    padding: 1.2%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+}
+
+
+.back-home:hover{
+    background-color: rgb(105, 113, 175);
+}
+
+a {
+    text-decoration: none ;
+  }
+
+
+

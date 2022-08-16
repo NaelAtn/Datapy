@@ -1,0 +1,128 @@
+
+
+.home-text{
+    font-family: 'Raleway', sans-serif;   
+    color: rgb(3, 30, 37);
+    background-image: url("office.jpg");
+    background-size  : cover;
+    background-repeat: no-repeat;
+    padding :15% 5%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+
+}
+
+.txt1{
+  margin-right: 35%;
+}
+
+.txt2{ animation: slideInLeft; 
+  animation-duration: 2s;}
+
+  
+.txt3{ animation: slideInRight; 
+  animation-duration: 2s;}
+
+
+  @media screen and (max-width: 960px) {
+    .home-text{
+      font-family: 'Raleway', sans-serif;   
+      color: rgb(3, 30, 37);
+     margin: auto;
+     background-image: url("office2.jpg");
+     background-size  :cover;
+  }
+  .txt1{
+    margin-top: 20%;
+  }
+  .txt2{ animation: slideInLeft; 
+    animation-duration: 2s;}
+  
+    
+  .txt3{ animation: slideInRight; 
+    animation-duration: 2s;}
+    } 
+
+    .inscri {
+      color: white;
+      background-color: rgb(68, 73, 115);
+      padding: 1.8%;
+      margin-top: 2%;
+      cursor: pointer;
+      border: none;
+      font-size: large;
+      animation: fadeIn; 
+      animation-duration: 3s;
+  }    
+
+
+  .inscri:hover{
+    background-color: rgb(105, 113, 175);
+}
+
+
+@media screen and (max-width: 960px) {
+  .inscri {
+    color: white;
+    background-color: rgb(68, 73, 115);
+    padding: 4%;
+    margin-top: 2%;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+} 
+.intro-img{
+  display: none 
+}
+  } 
+
+.mission{
+  background-color: rgb(236, 236, 236);
+  padding: 5% 5% 4% 4%;
+}  
+
+.v1{color: rgb(3, 30, 37);}
+
+.data-py{
+  color: rgb(68, 73, 115);
+}
+
+.vision{
+  font-weight:350;
+  color: rgb(59, 59, 59);
+}
+
+.intro{
+  width: 92%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  letter-spacing: 1px;
+  color: rgb(0, 0, 0);
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  
+}
+
+.intro-img{
+  width: 50%;
+  
+}
+
+
+.intro-container{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;}
+
+.center-btn{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  margin-top: 2%;
+}
+

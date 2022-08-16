@@ -1,0 +1,88 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 85%;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        justify-content: center;
+        align-items: center;
+    } 
+    .objectif-text{
+        margin-top: 3%;
+        width: max-content;
+        max-width: max-content;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        padding-top: 2%;
+    }
+    .ico{
+        width:25%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+
+     } 
+
+
+.about{
+    color:rgb(68, 73, 115) ;
+}
+
+.A-propos{
+    padding :5% 5%;
+}
+
+.objectif-text{
+    margin-top: 3%;
+    width: 65%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ico{
+    width:33%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.ico2{
+    width: 27%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+
+.title-a-propos{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding-top: 2%;
+}
